@@ -161,7 +161,7 @@ app.get("/users",async(req,res)=>{
   
 
 const port = process.env.PORT || 5000
-app.listen(port,(req,res)=>{
+app.listen(port,()=>{
     console.log(`server is started successfully and running at ${port}`)
 })
 
